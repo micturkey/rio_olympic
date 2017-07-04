@@ -27,7 +27,7 @@ public class DBHelper {
         
         let frameworkBundle = Bundle(for: DBHelper.self)
         
-        let configTablePath = frameworkBundle.path(forResource: "sql/DBConfig", ofType: "plist")
+        let configTablePath = frameworkBundle.path(forResource: "DBConfig", ofType: "plist")
         
         let configTable = NSDictionary(contentsOfFile: configTablePath!)
         
@@ -45,7 +45,7 @@ public class DBHelper {
             if sqlite3_open(dbFilePath!, &db) == SQLITE_OK {
                 //加载数据到业务表中
                 print("数据库升级...")
-                let createtablePath = frameworkBundle.path(forResource: "sql/create_load", ofType: "sql")
+                let createtablePath = frameworkBundle.path(forResource: "create_load", ofType: "sql")
                 let sql = try? NSString(contentsOfFile: createtablePath!, encoding: String.Encoding.utf8.rawValue)
                 let cSql = sql?.cString(using: String.Encoding.utf8.rawValue)
                 sqlite3_exec(db, cSql!, nil, nil, nil)

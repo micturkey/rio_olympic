@@ -22,7 +22,22 @@ class CountDownViewController: UIViewController {
         dateComp.year = 2016
         let dateD = calendar.date(from: dateComp as DateComponents)
         let interval = calendar.dateComponents([.year, .month, .day], from: dateD! , to:currentDate)
-        CountDown.text = String(format:"%li年%li月%li天", interval.year!, interval.month!, interval.day!)
+        var text1 = String(format:"%li年", interval.year!)
+        var text2 = String(format:"%li月", interval.month!)
+        var text3 = String(format:"%li天", interval.day!)
+        if interval.year! == 0{
+            text1 = ""
+        }
+        if interval.month! == 0{
+            text2 = ""
+        }
+        if interval.day! == 0{
+            text3 = ""
+        }
+        print(text2)
+        CountDown.text = String(format:"%@%@%@", text1, text2, text3)
+
+
         // Do any additional setup after loading the view.
     }
     

@@ -1,97 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
-    <device id="retina4_0" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Rio-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="RioOlympics2016" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="HomeViewController" customModule="RioOlympics2016" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HomeBg" translatesAutoresizingMaskIntoConstraints="NO" id="1yY-rC-Afd">
+                                <rect key="frame" x="16" y="0.0" width="343" height="618"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1yY-rC-Afd" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="5H7-cQ-zYs"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="1yY-rC-Afd" secondAttribute="bottom" id="MHy-Dg-eUg"/>
+                            <constraint firstItem="1yY-rC-Afd" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="MkC-7W-Rgh"/>
+                            <constraint firstItem="1yY-rC-Afd" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="topMargin" id="Weq-au-rOO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1yY-rC-Afd" secondAttribute="trailing" id="XSr-Vo-vkg"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Rio" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Rio" image="HomeTab" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
-        </scene>
-        <!--Sports-->
-        <scene sceneID="wg7-f3-ORb">
-            <objects>
-                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="RioOlympics2016" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
-                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Sports" image="second" id="cPa-gy-q4n"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="750" y="360"/>
-        </scene>
-        <!--Schedule View Controller-->
-        <scene sceneID="rTB-LP-1Zs">
-            <objects>
-                <tableViewController id="Dbg-P1-Zfd" customClass="ScheduleViewController" customModule="RioOlympics2016" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="p14-5r-2Mq">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="VWq-p2-kQx">
-                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VWq-p2-kQx" id="fYg-0g-rzn">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="Dbg-P1-Zfd" id="8Ld-5R-7he"/>
-                            <outlet property="delegate" destination="Dbg-P1-Zfd" id="Xg7-VJ-wHe"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Schedule View Controller" id="Mys-di-SAm"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8e4-NX-6R0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1339" y="1107"/>
+            <point key="canvasLocation" x="749.27536231884062" y="-320.38043478260875"/>
         </scene>
         <!--Schedule-->
         <scene sceneID="FLb-ix-LIm">
             <objects>
                 <navigationController id="ehy-gf-hbK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Schedule" id="k26-9R-JE0"/>
+                    <tabBarItem key="tabBarItem" title="Schedule" image="ScheduleTab" id="k26-9R-JE0"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="UVy-6N-B8H">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="Dbg-P1-Zfd" kind="relationship" relationship="rootViewController" id="2Jb-pA-Vbj"/>
+                        <segue destination="xnp-Uw-FYO" kind="relationship" relationship="rootViewController" id="W5H-93-AQY"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y6N-dE-wyJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="551" y="1150"/>
+            <point key="canvasLocation" x="116" y="957"/>
         </scene>
         <!--About-->
         <scene sceneID="uSH-fR-HjT">
@@ -102,16 +68,53 @@
                         <viewControllerLayoutGuide type="bottom" id="5OZ-CR-hGx"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Zj1-bJ-C9m">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="glH-FH-bk0">
+                                <rect key="frame" x="96" y="82" width="183.5" height="82"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="作者：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1OL-Ef-oC7">
+                                        <rect key="frame" x="0.0" y="0.0" width="183.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2015220401005 傅丹秋" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4BB-2B-bTj">
+                                        <rect key="frame" x="0.0" y="20.5" width="183.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2015220401024 程芃澄" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="riu-o6-BGk">
+                                        <rect key="frame" x="0.0" y="41" width="183.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2015220401027 翟易" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROf-13-jWO">
+                                        <rect key="frame" x="0.0" y="61.5" width="183.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="1OL-Ef-oC7" firstAttribute="top" secondItem="glH-FH-bk0" secondAttribute="top" constant="30" id="UUl-wu-yxU"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="glH-FH-bk0" firstAttribute="centerX" secondItem="Zj1-bJ-C9m" secondAttribute="centerX" id="m1u-Wb-mxg"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About" id="jnE-mU-n2d"/>
+                    <tabBarItem key="tabBarItem" title="About" image="AboutTab" id="jnE-mU-n2d"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1B6-rF-PrE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="15" y="794"/>
+            <point key="canvasLocation" x="-562.39999999999998" y="843.32833583208401"/>
         </scene>
         <!--Count Down-->
         <scene sceneID="hSh-Pt-kJ4">
@@ -122,34 +125,88 @@
                         <viewControllerLayoutGuide type="bottom" id="K1a-Ql-TTd"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wC6-XO-GzT">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xyB-tg-Agr">
-                                <rect key="frame" x="73" y="213" width="229" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="距离里约奥运会还有" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZO-O1-uZv">
-                                <rect key="frame" x="85" y="102" width="205" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CountDownBg" translatesAutoresizingMaskIntoConstraints="NO" id="k9u-FC-k7g">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Y2P-MF-Re5">
+                                <rect key="frame" x="92" y="45" width="191" height="99.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="距离里约奥运会已经过了" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZO-O1-uZv">
+                                        <rect key="frame" x="0.0" y="0.0" width="191" height="79"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="UZO-O1-uZv" secondAttribute="height" multiplier="191:79" id="W5R-TL-eqC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="test" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xyB-tg-Agr">
+                                        <rect key="frame" x="81" y="79" width="29.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Y2P-MF-Re5" firstAttribute="centerX" secondItem="wC6-XO-GzT" secondAttribute="centerX" id="7pd-Pl-YeP"/>
+                            <constraint firstAttribute="bottom" secondItem="k9u-FC-k7g" secondAttribute="bottom" id="CVc-oF-DHr"/>
+                            <constraint firstAttribute="trailing" secondItem="k9u-FC-k7g" secondAttribute="trailing" id="K19-PH-ol0"/>
+                            <constraint firstItem="k9u-FC-k7g" firstAttribute="top" secondItem="wC6-XO-GzT" secondAttribute="top" id="ZAK-kj-aI4"/>
+                            <constraint firstItem="k9u-FC-k7g" firstAttribute="leading" secondItem="wC6-XO-GzT" secondAttribute="leading" id="cey-cG-56c"/>
+                            <constraint firstItem="k9u-FC-k7g" firstAttribute="centerX" secondItem="wC6-XO-GzT" secondAttribute="centerX" id="xAI-M6-yM1"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Count Down" id="7k6-5y-dvh"/>
+                    <tabBarItem key="tabBarItem" title="Count Down" image="CountTab" id="7k6-5y-dvh"/>
                     <connections>
                         <outlet property="CountDown" destination="xyB-tg-Agr" id="EYW-sp-jSl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cS8-qR-J1z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1524" y="-300"/>
+            <point key="canvasLocation" x="1520.8" y="-300"/>
+        </scene>
+        <!--Events-->
+        <scene sceneID="Ogh-UE-ODq">
+            <objects>
+                <navigationController id="OjG-Xf-PcJ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Events" image="EventsTab" id="cOC-bK-8U8"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fXX-Cn-myO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="JSr-q0-8iq" kind="relationship" relationship="rootViewController" id="oHo-DG-n47"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HOv-BC-3nq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="699" y="357"/>
+        </scene>
+        <!--Events-->
+        <scene sceneID="7sM-2C-hkT">
+            <objects>
+                <viewController id="JSr-q0-8iq" customClass="EventsViewController" customModule="RioOlympics2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GCy-Hg-gt9"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wo5-sl-myR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YOu-24-xdU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Events" id="hfS-sI-9tJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XCC-dk-AwU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1455" y="368"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -163,7 +220,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="OjG-Xf-PcJ" kind="relationship" relationship="viewControllers" id="Jrc-Vc-rih"/>
                         <segue destination="ehy-gf-hbK" kind="relationship" relationship="viewControllers" id="EZ4-f0-6lp"/>
                         <segue destination="Tzf-ha-sAb" kind="relationship" relationship="viewControllers" id="gqY-nn-QiG"/>
                         <segue destination="c9X-Bh-Aaj" kind="relationship" relationship="viewControllers" id="Qv1-P4-ZfQ"/>
@@ -173,9 +230,81 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
+        <!--Schedule-->
+        <scene sceneID="1jU-bQ-zrf">
+            <objects>
+                <tableViewController id="xnp-Uw-FYO" customClass="ScheduleViewController" customModule="RioOlympics2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="nan-O3-vYG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellIdentifier" textLabel="uD4-s7-gev" detailTextLabel="spn-aS-SrI" style="IBUITableViewCellStyleValue2" id="eJu-y6-D8c">
+                                <rect key="frame" x="0.0" y="55.5" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eJu-y6-D8c" id="oy4-8a-c2E">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uD4-s7-gev">
+                                            <rect key="frame" x="15" y="15" width="91" height="17"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="spn-aS-SrI">
+                                            <rect key="frame" x="112" y="12" width="59" height="20.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="xnp-Uw-FYO" id="d8r-oe-lcn"/>
+                            <outlet property="delegate" destination="xnp-Uw-FYO" id="ltz-Ih-hHa"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Schedule" id="8cv-4e-zLd"/>
+                    <connections>
+                        <segue destination="4eC-Y7-0ya" kind="show" identifier="DetailSegue" id="ChC-nw-WUc"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YMX-lc-vcZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1016" y="1037"/>
+        </scene>
+        <!--Detail-->
+        <scene sceneID="lAG-SL-fCR">
+            <objects>
+                <viewController id="4eC-Y7-0ya" userLabel="Detail" customClass="ScheduleDetailViewController" customModule="RioOlympics2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ebH-fP-mDP"/>
+                        <viewControllerLayoutGuide type="bottom" id="yjg-NE-mdA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dut-iU-Fad">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iGX-NQ-sLw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="db7-mP-Lxh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1993" y="1029"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="AboutTab" width="30" height="30"/>
+        <image name="CountDownBg" width="320" height="480"/>
+        <image name="CountTab" width="30" height="30"/>
+        <image name="EventsTab" width="30" height="30"/>
+        <image name="HomeBg" width="320" height="480"/>
+        <image name="HomeTab" width="30" height="30"/>
+        <image name="ScheduleTab" width="30" height="30"/>
     </resources>
 </document>

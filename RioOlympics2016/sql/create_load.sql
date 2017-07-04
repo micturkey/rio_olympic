@@ -106,8 +106,8 @@ insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-05','
 
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-06','12:00 - 16:45','Men''s',31);
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-06','14:30 - 17:15','Men''s',30);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-06','7:00 - 21:45','Men''s',32);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-06','9:00 - 21:45','Men''s',35);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-06','07:00 - 21:45','Men''s',32);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-06','09:00 - 21:45','Men''s',35);
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-06','19:45 - 21:45','Men''s',33);
 
 /*==============================================================*/
@@ -143,9 +143,9 @@ insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-08','
 
 
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-08','11:15 - 20:00','Men''s & Women''s',6);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-08','12:00 - 20:00','Men''s & Women''s ',15);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-08','12:00 - 20:00','Men''s & Women''s ',7);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-08','12:00 - 16:45','Women''s ',19);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-08','12:00 - 20:00','Men''s & Women''s',15);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-08','12:00 - 20:00','Men''s & Women''s',7);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-08','12:00 - 16:45','Women''s',19);
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-08','12:30 - 17:00','Men''s & Women''s & Mixed',3);
 
 
@@ -193,9 +193,9 @@ insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-09','
 
 
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-09','11:15 - 20:00','Men''s & Women''s',6);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-09','12:00 - 20:00','Men''s & Women''s ',15);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-09','12:00 - 20:00','Men''s & Women''s ',7);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-09','12:00 - 16:45','Women''s ',19);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-09','12:00 - 20:00','Men''s & Women''s',15);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-09','12:00 - 20:00','Men''s & Women''s',7);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-09','12:00 - 16:45','Women''s',19);
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-09','12:30 - 17:00','Men''s & Women''s & Mixed',3);
 
 
@@ -245,9 +245,9 @@ insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-10','
 
 
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-10','11:15 - 20:00','Men''s & Women''s',6);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-10','12:00 - 20:00','Men''s & Women''s ',15);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-10','12:00 - 20:00','Men''s & Women''s ',7);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-10','12:00 - 16:45','Women''s ',19);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-10','12:00 - 20:00','Men''s & Women''s',15);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-10','12:00 - 20:00','Men''s & Women''s',7);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-10','12:00 - 16:45','Women''s',19);
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-10','12:30 - 17:00','Men''s & Women''s & Mixed',3);
 
 
@@ -297,9 +297,9 @@ insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-11','
 
 
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-11','11:15 - 20:00','Men''s & Women''s',6);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-11','12:00 - 20:00','Men''s & Women''s ',15);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-11','12:00 - 20:00','Men''s & Women''s ',7);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-11','12:00 - 16:45','Women''s ',19);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-11','12:00 - 20:00','Men''s & Women''s',15);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-11','12:00 - 20:00','Men''s & Women''s',7);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-11','12:00 - 16:45','Women''s',19);
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-11','12:30 - 17:00','Men''s & Women''s & Mixed',3);
 
 
@@ -349,9 +349,9 @@ insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-12','
 
 
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-12','11:15 - 20:00','Men''s & Women''s',6);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-12','12:00 - 20:00','Men''s & Women''s ',15);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-12','12:00 - 20:00','Men''s & Women''s ',7);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-12','12:00 - 16:45','Women''s ',19);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-12','12:00 - 20:00','Men''s & Women''s',15);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-12','12:00 - 20:00','Men''s & Women''s',7);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-12','12:00 - 16:45','Women''s',19);
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-12','12:30 - 17:00','Men''s & Women''s & Mixed',3);
 
 
@@ -401,9 +401,9 @@ insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-13','
 
 
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-13','11:15 - 20:00','Men''s & Women''s',6);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-13','12:00 - 20:00','Men''s & Women''s ',15);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-13','12:00 - 20:00','Men''s & Women''s ',7);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-13','12:00 - 16:45','Women''s ',19);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-13','12:00 - 20:00','Men''s & Women''s',15);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-13','12:00 - 20:00','Men''s & Women''s',7);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-13','12:00 - 16:45','Women''s',19);
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-13','12:30 - 17:00','Men''s & Women''s & Mixed',3);
 
 
@@ -451,9 +451,9 @@ insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-14','
 
 
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-14','11:15 - 20:00','Men''s & Women''s',6);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-14','12:00 - 20:00','Men''s & Women''s ',15);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-14','12:00 - 20:00','Men''s & Women''s ',7);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-14','12:00 - 16:45','Women''s ',19);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-14','12:00 - 20:00','Men''s & Women''s',15);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-14','12:00 - 20:00','Men''s & Women''s',7);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-14','12:00 - 16:45','Women''s',19);
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-14','12:30 - 17:00','Men''s & Women''s & Mixed',3);
 
 
@@ -500,9 +500,9 @@ insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-15','
 
 
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-15','11:15 - 20:00','Men''s & Women''s',6);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-15','12:00 - 20:00','Men''s & Women''s ',15);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-15','12:00 - 20:00','Men''s & Women''s ',7);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-15','12:00 - 16:45','Women''s ',19);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-15','12:00 - 20:00','Men''s & Women''s',15);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-15','12:00 - 20:00','Men''s & Women''s',7);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-15','12:00 - 16:45','Women''s',19);
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-15','12:30 - 17:00','Men''s & Women''s & Mixed',3);
 
 
@@ -550,9 +550,9 @@ insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-16','
 
 
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-16','11:15 - 20:00','Men''s & Women''s',6);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-16','12:00 - 20:00','Men''s & Women''s ',15);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-16','12:00 - 20:00','Men''s & Women''s ',7);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-16','12:00 - 16:45','Women''s ',19);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-16','12:00 - 20:00','Men''s & Women''s',15);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-16','12:00 - 20:00','Men''s & Women''s',7);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-16','12:00 - 16:45','Women''s',19);
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-16','12:30 - 17:00','Men''s & Women''s & Mixed',3);
 
 
@@ -600,9 +600,9 @@ insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-17','
 
 
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-17','11:15 - 20:00','Men''s & Women''s',6);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-17','12:00 - 20:00','Men''s & Women''s ',15);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-17','12:00 - 20:00','Men''s & Women''s ',7);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-17','12:00 - 16:45','Women''s ',19);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-17','12:00 - 20:00','Men''s & Women''s',15);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-17','12:00 - 20:00','Men''s & Women''s',7);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-17','12:00 - 16:45','Women''s',19);
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-17','12:30 - 17:00','Men''s & Women''s & Mixed',3);
 
 
@@ -649,9 +649,9 @@ insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-18','
 
 
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-18','11:15 - 20:00','Men''s & Women''s',6);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-18','12:00 - 20:00','Men''s & Women''s ',15);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-18','12:00 - 20:00','Men''s & Women''s ',7);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-18','12:00 - 16:45','Women''s ',19);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-18','12:00 - 20:00','Men''s & Women''s',15);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-18','12:00 - 20:00','Men''s & Women''s',7);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-18','12:00 - 16:45','Women''s',19);
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-18','12:30 - 17:00','Men''s & Women''s & Mixed',3);
 
 
@@ -698,9 +698,9 @@ insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-19','
 
 
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-19','11:15 - 20:00','Men''s & Women''s',6);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-19','12:00 - 20:00','Men''s & Women''s ',15);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-19','12:00 - 20:00','Men''s & Women''s ',7);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-19','12:00 - 16:45','Women''s ',19);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-19','12:00 - 20:00','Men''s & Women''s',15);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-19','12:00 - 20:00','Men''s & Women''s',7);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-19','12:00 - 16:45','Women''s',19);
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-19','12:30 - 17:00','Men''s & Women''s & Mixed',3);
 
 
@@ -748,9 +748,9 @@ insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-20','
 
 
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-20','11:15 - 20:00','Men''s & Women''s',6);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-20','12:00 - 20:00','Men''s & Women''s ',15);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-20','12:00 - 20:00','Men''s & Women''s ',7);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-20','12:00 - 16:45','Women''s ',19);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-20','12:00 - 20:00','Men''s & Women''s',15);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-20','12:00 - 20:00','Men''s & Women''s',7);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-20','12:00 - 16:45','Women''s',19);
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-20','12:30 - 17:00','Men''s & Women''s & Mixed',3);
 
 
@@ -798,9 +798,9 @@ insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-21','
 
 
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-21','11:15 - 20:00','Men''s & Women''s',6);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-21','12:00 - 20:00','Men''s & Women''s ',15);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-21','12:00 - 20:00','Men''s & Women''s ',39);
-insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-21','12:00 - 16:45','Women''s ',19);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-21','12:00 - 20:00','Men''s & Women''s',15);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-21','12:00 - 20:00','Men''s & Women''s',39);
+insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-21','12:00 - 16:45','Women''s',19);
 insert into Schedule (GameDate,GameTime,GameInfo,EventID) values ('2016-08-21','12:30 - 17:00','Men''s & Women''s & Mixed',3);
 
 
